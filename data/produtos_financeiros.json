@@ -1,11 +1,12 @@
 [
   {
-    "nome": "Tesouro Selic",
+    "nome": "Tesouro Selic 2026",
     "categoria": "renda_fixa",
     "risco": "baixo",
     "rentabilidade": "100% da Selic",
     "aporte_minimo": 30.00,
-    "indicado_para": "Reserva de emergência e iniciantes"
+    "indicado_para": "Reserva de emergência e iniciantes",
+    "data_vencimento": "01/03/2026"
   },
   {
     "nome": "CDB Liquidez Diária",
@@ -13,7 +14,8 @@
     "risco": "baixo",
     "rentabilidade": "102% do CDI",
     "aporte_minimo": 100.00,
-    "indicado_para": "Quem busca segurança com rendimento diário"
+    "indicado_para": "Quem busca segurança com rendimento diário",
+    "data_vencimento": "01/09/2026"
   },
   {
     "nome": "LCI/LCA",
@@ -21,7 +23,8 @@
     "risco": "baixo",
     "rentabilidade": "95% do CDI",
     "aporte_minimo": 1000.00,
-    "indicado_para": "Quem pode esperar 90 dias (isento de IR)"
+    "indicado_para": "Quem pode esperar 90 dias (isento de IR)",
+    "data_vencimento": "01/06/2026"
   },
   {
     "nome": "Fundo Multimercado",
@@ -29,7 +32,8 @@
     "risco": "medio",
     "rentabilidade": "CDI + 2%",
     "aporte_minimo": 500.00,
-    "indicado_para": "Perfil moderado que busca diversificação"
+    "indicado_para": "Perfil moderado que busca diversificação",
+    "data_vencimento": "01/10/2026"
   },
   {
     "nome": "Fundo de Ações",
@@ -37,6 +41,7 @@
     "risco": "alto",
     "rentabilidade": "Variável",
     "aporte_minimo": 100.00,
-    "indicado_para": "Perfil arrojado com foco no longo prazo"
+    "indicado_para": "Perfil arrojado com foco no longo prazo",
+    "data_vencimento": "01/12/2026"
   }
 ]
