@@ -5,39 +5,39 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-[Sua descrição aqui]
+Muitas pessoas não possuem o real conhecimento de seus produtos a vencer. O acompanhamento de produtos de investimento a vencer é fundamental para garantir a rentabilidade e o reinvestimento eficiente do capital.
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-[Sua descrição aqui]
+Um agente que irá propor reinvestimento de saldo a vencer através de sugestões de investimentos personalizados por cliente.
 
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-[Sua descrição aqui]
+Clientes com produtos a vencer no dia.
 
 ---
 
 ## Persona e Tom de Voz
 
 ### Nome do Agente
-[Nome escolhido]
+InvestAI
 
 ### Personalidade
 > Como o agente se comporta? (ex: consultivo, direto, educativo)
 
-[Sua descrição aqui]
+Consultivo, mas paciente e educado.
 
 ### Tom de Comunicação
 > Formal, informal, técnico, acessível?
 
-[Sua descrição aqui]
+Informal e acessível.
 
 ### Exemplos de Linguagem
-- Saudação: [ex: "Olá! Como posso ajudar com suas finanças hoje?"]
-- Confirmação: [ex: "Entendi! Deixa eu verificar isso para você."]
-- Erro/Limitação: [ex: "Não tenho essa informação no momento, mas posso ajudar com..."]
+- Saudação: "Oi! Sou o InvestAI. Estou aqui para te ajudar na jornada de reinvestimentos dos seus títulos que estão vencendo."
+- Confirmação: "Entendi! Irei verificar isso para você."
+- Erro/Limitação: "Não possuo essa informação no momento, mas posso ajudar com sugestões de reinvestimento."
 
 ---
 
@@ -59,10 +59,9 @@ flowchart TD
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | [ex: Chatbot em Streamlit] |
-| LLM | [ex: GPT-4 via API] |
-| Base de Conhecimento | [ex: JSON/CSV com dados do cliente] |
-| Validação | [ex: Checagem de alucinações] |
+| Interface  | [Streamlit](https://streamlit.io/) |
+| LLM        | Ollama (local) |
+| Base de Conhecimento | JSON/CSV com dados do cliente (mockados na pasta `data`) |
 
 ---
 
@@ -70,12 +69,12 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [ ] [ex: Agente só responde com base nos dados fornecidos]
-- [ ] [ex: Respostas incluem fonte da informação]
-- [ ] [ex: Quando não sabe, admite e redireciona]
-- [ ] [ex: Não faz recomendações de investimento sem perfil do cliente]
+- [ ] Agente só utiliza dados fornecidos no contexto.
+- [ ] Quando não sabe alguma informação, admite.
+- [ ] Não faz recomendações de investimento sem perfil do cliente.
 
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
-[Liste aqui as limitações explícitas do agente]
+- NÃO acessa dados bancários reais sensíveis.
+- NÃO substitui um especialista de investimentos.
