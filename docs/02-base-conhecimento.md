@@ -1,5 +1,17 @@
 # Base de Conhecimento
 
+> [!TIP]
+>  **Prompt sugerido para esta etapa:**
+> ```
+> Preciso organizar a base de conhecimento do meu agente financeiro.
+>
+> Tenho estes arquivos de dados: [Liste os arquivos de dados].
+> 
+> Me ajude a:
+> (1) Entender o que cada arquivo contém,
+> (2) Decidir como usar cada um,
+> (3) Criar um exemplo de contexto formatado para incluir no prompt.
+
 ## Dados Utilizados
 
 Foram utilizados os arquivos que estão em `data`, adicionando apenas a data de vencimento ao arquivo `produtos_financeiros.json`.
