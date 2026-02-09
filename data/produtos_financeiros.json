@@ -3,7 +3,7 @@
     "nome": "Tesouro Selic 2026",
     "categoria": "renda_fixa",
     "risco": "baixo",
-    "rentabilidade": "100% da Selic",
+    "rentabilidade": "100% da Selic + 0,03% ao ano",
     "aporte_minimo": 30.00,
     "indicado_para": "Reserva de emergência e iniciantes",
     "data_vencimento": "01/03/2026"
