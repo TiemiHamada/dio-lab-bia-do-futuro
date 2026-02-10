@@ -27,3 +27,9 @@ ollama serve
 # 3. Rodar a aplicação
 streamlit run .\Desafios\src\app.py
 ```
+
+## Evidências de Execução
+
+<img width="1916" height="998" alt="image" src="https://github.com/user-attachments/assets/396bca1b-e2fd-48a4-8767-b47c210d47ca" />
+
+
